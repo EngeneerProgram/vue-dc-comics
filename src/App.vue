@@ -1,17 +1,24 @@
 <template>
   <div id="app">
     <HeaderComponent />
+    <JumboComponent />
+    <InfoComponent />
     
   </div>
 </template>
 
 <script>
 import HeaderComponent from '@/components/HeaderComponent.vue';
+import JumboComponent from '@/components/JumbotronComponent.vue';
+import InfoComponent from '@/components/InfoComponent.vue'
+
 
 export default {
   name: 'App',
   components: {
-    HeaderComponent
+    HeaderComponent,
+    JumboComponent,
+    InfoComponent
   }
 }
 </script>
