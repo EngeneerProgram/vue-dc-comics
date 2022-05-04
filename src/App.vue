@@ -1,9 +1,10 @@
 <template>
   <div id="app">
    <HeaderComponents />
-    <Jumbotron />
-    <MainComponent />
+    <Jumbotron/>
+    <MainComponent/>
     <FooterInfoCard />
+    <FooterComponent/>
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import HeaderComponents from '@/components/HeaderComponents.vue'
 import Jumbotron from '@/components/JumbotronComponent.vue'
 import MainComponent from '@/components/HeroMainComponent.vue'
 import FooterInfoCard from '@/components/FooterInfoCardComponent.vue'
+import FooterComponent from '@/components/footerComponent.vue'
 
 
 export default {
@@ -20,7 +22,8 @@ export default {
     HeaderComponents,
     Jumbotron,
     MainComponent,
-    FooterInfoCard
+    FooterInfoCard,
+    FooterComponent
   }
 }
 </script>
