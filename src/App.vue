@@ -1,35 +1,42 @@
 <template>
   <div id="app">
-    <HeaderComponent />
-    <JumboComponent />
-    <InfoComponent />
-    
+   <HeaderComponents />
+    <Jumbotron />
+    <MainComponent />
+    <FooterInfoCard />
   </div>
 </template>
 
 <script>
-import HeaderComponent from '@/components/HeaderComponent.vue';
-import JumboComponent from '@/components/JumbotronComponent.vue';
-import InfoComponent from '@/components/InfoComponent.vue'
+import HeaderComponents from '@/components/HeaderComponents.vue'
+import Jumbotron from '@/components/JumbotronComponent.vue'
+import MainComponent from '@/components/HeroMainComponent.vue'
+import FooterInfoCard from '@/components/FooterInfoCardComponent.vue'
 
 
 export default {
   name: 'App',
   components: {
-    HeaderComponent,
-    JumboComponent,
-    InfoComponent
+    HeaderComponents,
+    Jumbotron,
+    MainComponent,
+    FooterInfoCard
   }
 }
 </script>
 
 <style lang="scss">
+@import '@/assets/sass/partial/style.scss';
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  
-  color: #2c3e50;
-  margin-top: 60px;
 }
+  
+
 </style>
