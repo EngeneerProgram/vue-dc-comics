@@ -2,6 +2,7 @@
   <div id="app">
    <HeaderComponents />
     <Jumbotron/>
+    <SliderPropComponent/>
     <MainComponent/>
     <FooterInfoCard />
     <FooterComponent/>
@@ -14,13 +15,14 @@ import Jumbotron from '@/components/JumbotronComponent.vue'
 import MainComponent from '@/components/HeroMainComponent.vue'
 import FooterInfoCard from '@/components/FooterInfoCardComponent.vue'
 import FooterComponent from '@/components/footerComponent.vue'
-
+import SliderPropComponent from '@/components/SliderPropComponent.vue'
 
 export default {
   name: 'App',
   components: {
     HeaderComponents,
     Jumbotron,
+    SliderPropComponent,
     MainComponent,
     FooterInfoCard,
     FooterComponent
