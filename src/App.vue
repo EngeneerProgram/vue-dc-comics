@@ -15,7 +15,7 @@ import Jumbotron from '@/components/JumbotronComponent.vue'
 import MainComponent from '@/components/HeroMainComponent.vue'
 import FooterInfoCard from '@/components/FooterInfoCardComponent.vue'
 import FooterComponent from '@/components/footerComponent.vue'
-import SliderPropComponent from '@/components/SliderPropComponent.vue'
+import SliderPropComponent from '@/components/ComicsList.vue'
 
 export default {
   name: 'App',
