@@ -1,7 +1,10 @@
 <template>
+
    <div class="movie">
        <div class="container">
-           <div class="slide v-for='(movie, index)in movies"  >
+           
+           <div class="slide v-for='(movie, index)in movies" >
+               
                :img="movie.thumb"
                :price="movie.price"
                :series="movie.series"
@@ -17,9 +20,13 @@
 
 
 <script>
+import  ComicsComponent from '@/components/ComicsComponent.vue'
 
 export default {
-    name: 'SliderPropComponent',
+    name: 'ComicsList',
+    components:{
+        ComicsComponent
+    }
     data() {
         return {
             movies: [
@@ -115,5 +122,6 @@ export default {
 .movie{
     height: 600px;
     background-color:rgba(28, 28, 28, 1);
+    
 }
 </style>
