@@ -58,7 +58,7 @@ export default {
 
 <style lang="scss" scoped>
 .container_component{
-    padding:4rem;
+    padding:3rem;
     background-color: rgba(2, 130, 249, 1);
 
     .card{

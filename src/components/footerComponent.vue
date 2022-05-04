@@ -27,9 +27,9 @@
 <style lang="scss" scoped>
 
 .footer_container{
-    width: 1905px;
+    width: 1920px;
     background-color:rgba(48, 48, 48, 1);
-    height: 13vh;
+    height: 13.5vh;
     
     
 }

@@ -34,6 +34,7 @@ ul{
     display:flex;
     padding:1rem;
     align-items:center;
+    height: 100%;
     
     li{
         padding:10px;

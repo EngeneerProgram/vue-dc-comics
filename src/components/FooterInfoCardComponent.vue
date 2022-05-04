@@ -167,7 +167,7 @@
     .big_logo{
         position:absolute;
         right:0;
-        top:-63px;
+        top:-100px;
     }
 }
 </style>
